@@ -764,6 +764,7 @@ elseif arg[1] == "print" then
 		arerror()
 	else
 		print("Printing " .. words .. " on hologram")
+		component.hologram.clear()
 		load()
 		local xn = 1 -- line start at left
 		local yn = 32 -- starts at the top and goes down
